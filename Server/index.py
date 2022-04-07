@@ -1,5 +1,5 @@
 from fastapi import FastAPI
-
+from Controllers.News.newsController import getCandidateNews
 app = FastAPI()
 
 
@@ -9,6 +9,7 @@ async def getSentiment(candidate_name):
 
 
 @app.get("/news/{candidate_name}")
-async def read_item(candidate_name):
-    return {"candidate_name": candidate_name}
+def read_item(candidate_name):
+    news = getCandidateNews(candidate_name)
+    return news
 
