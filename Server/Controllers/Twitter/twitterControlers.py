@@ -2,8 +2,6 @@ from time import sleep
 import requests
 import json
 
-api_key = 'PgX0WBhSTOI5Qa6ttXmFmT94b'
-api_private = 'Sm4weRja4mDcW2R1Nn84d2oZWtsd1ecRQrdIXubQPJpJlGqsTz'
 api_token =  'AAAAAAAAAAAAAAAAAAAAAEj1bAEAAAAAeboOzfaCGiz0HGgH5w4f8rjEFTA%3Dp2YjLo1AxSUHPcdvCWgHz0DCBnLYAcrlDilg6Uok15q7hypmAy'
 
 search_url = "https://api.twitter.com/2/tweets/search/recent"
