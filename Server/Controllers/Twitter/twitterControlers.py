@@ -1,6 +1,5 @@
 from time import sleep
 import requests
-import json
 
 api_token =  'AAAAAAAAAAAAAAAAAAAAAEj1bAEAAAAAeboOzfaCGiz0HGgH5w4f8rjEFTA%3Dp2YjLo1AxSUHPcdvCWgHz0DCBnLYAcrlDilg6Uok15q7hypmAy'
 
