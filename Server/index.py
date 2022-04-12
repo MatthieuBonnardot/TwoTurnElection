@@ -5,6 +5,7 @@ app = FastAPI()
 
 @app.get('/sentiment/{candidate_name}')
 async def getSentiment(candidate_name):
+    
     return { 'Sentiment' : candidate_name }
 
 
